@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" type="images/png" href="assets/images/cool.png">
+</head>
+
+<body>
+    <style>
+        .dropdown:hover>.dropdown-menu {
+            display: block
+        }
+        
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .navbar-nav {
+            margin-top: -10px;
+            margin-left: 200px;
+        }
+        
+        .naira {
+            margin-left: 20px
+        }
+        
+        .lift {
+            padding-left: 500px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .sticky-top {
+            background-color: white;
+        }
+        
+        .btn-warning {
+            border-radius: 5px;
+        }
+        
+        .buttons {
+            border-radius: 20px;
+        }
+        
+        .footer-cols {
+            background-color: rgb(255, 209, 2);
+            list-style: none;
+            display: grid;
+            grid-gap: 50px;
+            grid-template-columns: repeat(5, 1fr);
+            text-align: left;
+            font-size: 15px;
+            padding: 100px 22px 10px 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .footer-cols a:active {
+            color: black;
+        }
+        
+        .footer-cols a:hover {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .footer-cols ul li a {
+            color: black;
+        }
+        
+        .footer-cols ul li {
+            list-style: none;
+            margin-left: -250px;
+        }
+        
+        .footer-cols ul li:first-child {
+            font-size: 17px;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+            color: black;
+        }
+        
+        .footer-bottom {
+            color: black;
+            padding-left: 60px;
+            padding-top: 10px;
+            background-color: yellow;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-icon">
+            <a href="#"><img src=" assets/images/bliss.png " alt="bliss " width="200 " height="80 "></a>
+            </a>
+            <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active ">
+                        <a class="nav-link btn-warning text-light " href="# ">Women <span class="sr-only ">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="# ">Men <span class="sr-only ">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="# ">Girls <span class="sr-only ">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="# ">Boys <span class="sr-only ">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="# ">Inspiration</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle " href="# " id="navbarDropdown " role="button " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                            Holiday Shop </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown ">
+                            <a class="dropdown-item " href="# ">New Years Sales</a>
+                            <a class="dropdown-item " href="# ">Easter Sales</a>
+                            <div class="dropdown-divider "></div>
+                            <a class="dropdown-item " href="# ">Children's Day Sales</a>
+                        </div>
+                    </li>
+                </ul>
+                <img class="mr-sm-4 " src="assets/images/heart.png" alt="shop" width="1.5%" height="1.5%"></a>
+                <img class="mr-sm-4 " src="assets/images/bag.png" alt="shop" width="1.5%" height="1.5%"></a>
+                <img class="mr-sm-4 " src="assets/images/user.png" alt="shop" width="1.5%" height="1.5%"></a>
+
+                <form class="form-inline my-2 my-lg-0 ">
+                    <input class="form-control mr-sm-2 " type="search " placeholder="Search " aria-label="Search ">
+                    <button class="btn btn-outline-dark my-2 my-sm-0 " type="submit ">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="navbar-expand-md navbar-dark text-light bg-warning">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target"></button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <img class="naira" src="assets/images/naira.png" alt="shop" width="1%" height="1%"></a>
+            <img src="assets/images/nigeria.png" alt="shop" width="1.5%" height="1.5%"></a>
+            <p style="margin-top:10px" class="container text-center">Get 20% off</p>
+
+        </div>
+    </nav>
+    <hr class="container">
+    <div>
+        <h4 class="text-center">Women's New In </h4>
+        <p class="container text-center">Looking for something new? Discover emerging trends, the latest clothing for men and the freshest new fits with our ASOS New In page. From sharp office shirts and suits to see you right through to 5PM, to the shorts, tees and vests that’ll keep
+            you looking fresh– you can find the look here as soon as it lands. What’s more, our men’s new clothing selection includes all those accessory touches that make the difference, from laidback caps and timeless.</p>
+    </div>
+
+    <div class="buttons container text-center my-sm-3 p-5">
+        <button type="button" class="btn btn-warning mr-sm-3">New in: Living + Gifts</button>
+        <button type="button" class="btn btn-warning mr-sm-3">New in: Clothing</button>
+        <button type="button" class="btn btn-warning mr-sm-3">New in: Accesories</button>
+        <button type="button" class="btn btn-warning mr-sm-3">New in: Shoes</button>
+        <button type="button" class="btn btn-warning mr-sm-3">New in: Face + Body</button>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/reebok.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">Reebok Zig Kinetica trainers in white</p>
+                <p class="small"> $30</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/fblack.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">Reebok Zig Kinetica trainers in black</p>
+                <p class="small"> $30</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/fwhite.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small"> The North Face Zumu t-shirt in white</p>
+                <p class="small"> $50</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"></a><img src="assets/images/zumu.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">The North Face Zumu t-shirt in white</p>
+                <p class="small"> $50</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/pink.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">Jeepers Peepers slim square sunglasses with pink lens</p>
+                <p class="small"> $30</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/mixy.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">ASOS DESIGN dad suit in white based floral</p>
+                <p class="small"> $93</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/warehouse.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small"> Warehouse crowded floral bikini set</p>
+                <p class="small">$50</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/matchy.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">ASOS DESIGN Seersucker Bikini in Black/White</p>
+                <p class="small"> $50</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/multi.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">Miss Selfridge petite maxi dress in scattered black floral</p>
+                <p class="small"> $30</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/ivory.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">Miss Selfridge tea top with high neck in floral print </p>
+                <p class="small"> $30</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/RId.PNG" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small"> River Island cropped straight leg jeans in dark grey</p>
+                <p class="small">$50</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/cream.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">River Island tailored peg trousers in cream</p>
+                <p class="small"> $50</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/diverse.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">In The Style x Laura Jade satin double breasted blazer in cream</p>
+                <p class="small"> $30</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/style.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small"> In The Style x Billie Faiers shirt dress with ruched skirt detail in beige</p>
+                <p class="small"> $60</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/maya.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small"> Maya strappy delicate sequin fishtail maxi dess in taupe blush</p>
+                <p class="small">$60</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="assets/images/frill.png" alt="mens wears" class="img-fluid" width="100%" height="50%"></a>
+                <p class="small">New Look Petite frill sleeve mini dress in black</p>
+                <p class="small"> $50</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr>
+        <div class="container col-lg-4 col-lg-offset-4">
+            <a href="#"><img class=" mr-sm-4 " src="assets/images/twitterr.png " alt="shop " width="5% " height="5% "></a>
+            </a>
+            <a href="#"><img class="mr-sm-4 " src="assets/images/instagramm.png " alt="shop " width="5% " height="5% "></a>
+            </a>
+            <a href="#"><img class="mr-sm-4 " src="assets/images/snapchat.png " alt="shop " width="5% " height="5% "></a>
+            </a>
+            |
+            <img class="mr-sm-4 " src="assets/images/mastercard.png " alt="shop " width="5% " height="5% "></a>
+            <img class="mr-sm-4 " src="assets/images/visa.png " alt="shop " width="5% " height="5% "></a>
+            <img class="mr-sm-4 " src="assets/images/paypal.png " alt="shop " width="5% " height="5% "></a>
+            <img class="mr-sm-4 " src="assets/images/american-express.png " alt="shop " width="5% " height="5%"></a>
+            <label class="mr-sm-3" for="fruit1"></label>
+        </div>
+    </div>
+
+
+    <footer class="footer-cols">
+        <hr>
+        <ul>
+            <li>HELP & INFORMATION</li>
+            <li>
+                <a href="#">Help</a>
+            </li>
+            <li>
+                <a href="#">Track Order</a>
+            </li>
+            <li>
+                <a href="#">Delivery & Returns</a>
+            </li>
+            <li>
+                <a href="#">10% Student Discount</a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>ABOUT BLISS</li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Careers at BLISS</a>
+            </li>
+            <li>
+                <a href="#">Corporate Responsibility</a>
+            </li>
+            <li>
+                <a href="#">Investors Site</a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>MORE FROM BLISS</li>
+            <li>
+                <a href="#">Mobile and BLISS Apps</a>
+            </li>
+            <li>
+                <a href="#">Bliss Marketplace</a>
+            </li>
+            <li>
+                <a href="#">Gift Vouchers</a>
+            </li>
+        </ul>
+
+        <ul class="col-md-2 col-sm-4 col-xs-8 segment-four">
+            <li>SHOPPING FROM: </li>
+            <li>
+                <a href="#">You're in <img src="assets/images/nigeria.png" alt="shop" width="5%" height="5%"> | CHANGE</a></a>
+            </li>
+        </ul>
+    </footer>
+    <div class="footer-bottom">
+        Copyright &copy; 2020 Bliss
+    </div>
+</body>
