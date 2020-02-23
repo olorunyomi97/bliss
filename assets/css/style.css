@@ -1,47 +1,48 @@
-    .navbar-nav {
-        margin-top: -10px;
-        margin-left: 200px;
-    }
-    
-    .naira {
-        margin-left: 20px
-    }
-    
-    .lift {
-        padding-left: 500px;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    
-    .wears {
-        list-style: none;
-        margin-top: 30px;
-        font-size: 13px;
-        font-weight: bolder;
-    }
-    
-    .wears a {
-        color: black;
-    }
-    
-    .wears a:hover {
-        color: black;
-        text-decoration-style: double;
-    }
-    
-    .flex-row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-right: 90px;
-        margin-top: -120px;
-    }
-    
-    .big-check {
-        background-color: white;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-align: center;
-        font-size: 30px;
-        color: black;
-    }
+            .navbar-nav {
+                margin-top: -10px;
+                margin-left: 200px;
+            }
+            
+            .naira {
+                margin-left: 20px
+            }
+            
+            .lift {
+                padding-left: 500px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            
+            .wears {
+                list-style: none;
+                margin-top: 30px;
+                font-size: 13px;
+                font-weight: bolder;
+                margin-left: -40px;
+            }
+            
+            .wears a {
+                color: black;
+            }
+            
+            .wears a:hover {
+                color: black;
+                text-decoration-style: double;
+            }
+            
+            .flex-row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-right: 50px;
+                margin-top: -120px;
+            }
+            
+            .big-check {
+                background-color: white;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                text-align: center;
+                font-size: 30px;
+                color: black;
+            }
